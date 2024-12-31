@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+      "*.html": "jekyll",
+      "*.md": "markdown"
+    },
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "prettier.requireConfig": true,
+    "emmet.includeLanguages": {
+        "html": "jekyll"
+      }
+  }
+  
