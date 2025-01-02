@@ -1,0 +1,45 @@
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+title: 'Rohith McKim'
+theme: "Papermod"
+
+menu:
+  - identifier: "resume"
+    name: "Resume"
+    url: "/resume/"
+    weight: 1
+  - identifier: "portfolio"
+    name: "Portfolios"
+    url: "/portfolio/"
+    weight: 2
+  - identifier: "memories"
+    name: "Memories"
+    url: "/memories/"
+    weight: 3
+
+params:
+  showToc: true
+  TocoOpen: false
+  ShowbreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+  env: "production"
+  
+  profile:
+    enable: true
+    name: "Rohith McKim"
+    subtitle: "BEng in Mechatronics Engineering at the <a href='https://www.mun.ca' target='_blank'>Memorial University of Newfoundland</a> and the Lead Systems Engineer for the <a href='https://munstar-1.com' target='_blank'>MUNStar-1 Cubesat</a>."
+    imageUrl: "images/headshot1.jpg"
+    imageWidth: 220
+    imageHeight: 220
+
+SocialIcons:
+  - identifier: "github"
+    name: "GitHub"
+    url: "https://github.com/Jrmckim"
+  - identifier: "LinkedIn"
+    name: "LinkedIn"
+    url: "https://www.linkedin.com/in/rohithmckim"
+  - identifier: "Instagram"
+    name: "Instagram"
+    url: "https://www.instagram.com/rohithmckim"

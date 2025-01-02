@@ -1,11 +1,57 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Rohith McKim'
-theme = "PaperMod"
+theme = "Papermod"
+
 
 [menu]
   [[menu.main]]
     identifier = "resume"
     name = "Resume"
-    url = "/content/resume/"
+    url = "/resume/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
     weight = 2
+
+  [[menu.main]]
+    identifier = "memories"
+    name = "Memories"
+    url = "/memories/"
+    weight = 3
+
+[params]
+  # Theme-related settings
+  showToc = true
+  TocoOpen = false
+  ShowbreadCrumbs = true
+  ShowCodeCopyButtons = true
+  hideMeta = false
+
+  env = "production"
+
+  # Home Page Settings (Profile Section)
+  [params.profile]
+    enable = true
+    name = "Rohith McKim"
+    subtitle = "BEng in Mechatronics Engineering at the <a href='https://www.mun.ca' target='_blank'>Memorial University of Newfoundland</a> and the Lead Systems Engineer for the <a href='https://munstar-1.com' target='_blank'>MUNStar-1 Cubesat</a>."
+    imageUrl = "images/headshot1.jpg"
+    imageWidth = 220
+    imageHeight = 220
+
+[SocialIcons]
+  [[SocialIcons.social]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/Jrmckim"
+ [[SocialIcons.social]]
+    identifier = "LinkedIn"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/rohithmckim"
+ [[SocialIcons.social]]
+    identifier = "Instagram"
+    name = "Instagram"
+    url = "https://www.instagram.com/rohithmckim"
